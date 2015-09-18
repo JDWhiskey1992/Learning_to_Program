@@ -6,4 +6,5 @@ instead of 'python3 1.0_Hello_World.py'."""
 
 print("Hello World!")
 
-"""Unlike 'printf' in C and 'cout' in C++, the 'print' function in Python automatically ends the line at the end of the printed statement."""
+"""Unlike 'printf' in C and 'cout' in C++, the 'print' function in Python automatically 
+ends the line at the end of the printed statement."""
