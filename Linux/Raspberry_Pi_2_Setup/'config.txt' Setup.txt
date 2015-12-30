@@ -1,0 +1,7 @@
+If the file does not exist, create config.txt in /boot. Add the following lines to the file:
+
+framebuffer_width=1920
+framebuffer_height=1080
+
+hdmi_group=1
+hdmi_mode=16
