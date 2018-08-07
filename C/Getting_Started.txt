@@ -1,0 +1,8 @@
+$ touch filename.c
+$ open filename.c
+
+*type code and save*
+
+$ gcc -Wall filename.c -o filename.exe
+$ chmod +x filename.exe
+$ ./filename.exe
