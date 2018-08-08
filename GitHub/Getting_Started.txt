@@ -1,0 +1,49 @@
+$ git config --global user.name <user_name>
+$ git config --global user.email <email_address>
+
+$ git config --list
+
+$ cd /home/user/<project_name>
+$ git init
+$ git commit -m "initial project version"
+
+$ git clone <url>
+$ git clone <url> <target_directory>
+
+$ git status
+$ git add filename
+
+$ git commit -m "commit message"
+
+$ git rm filename
+$ git rm --cached filename
+
+$ git mv filename new_filename
+
+$ cat .gitignore
+
+# ignore all .a files
+*.a
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in the build/ directory
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
+$ git commit -m 'initial commit'
+$ git add forgotten_file
+$ git commit --amend
+
+$ git reset HEAD filename
+
+$ git checkout -- filename
